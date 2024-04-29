@@ -13,7 +13,7 @@ import jakarta.persistence.OneToMany;
 public class Owner {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long ownerid;
 	private String firstname;
 	private String lastname;
